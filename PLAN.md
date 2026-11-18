@@ -36,6 +36,8 @@ Decoden (img 54387665) B0H4W4ZKS1 B0H4WDZFHR [B0H4VXFXCG FR only] / [Star Academ
 - Recharger le builder après écriture (sinon l'éditeur ouvert peut réécraser).
 
 ## Statut DE
+- Toutes les pages FAITES en brouillon (18/11), arborescence calquée sur FR FA26 (DE/pages_fr_fa26.json). Nouvelles pages : ANGEBOTE, et sous NACH MARKE : BEBE CABRIOLES, MINI DELICES, MAGIC LIGN, SHINY POP, YUMEMI. Pages renommées : KREATIVES BASTELN, MALEN & ZEICHNEN, PERLEN & SCHMUCK, GLITZER & PAILLETTEN, NACH ALTER, BESTSELLER. KREATIVE KÜCHE (page DE sans équivalent FR) laissée sous KREATIVES BASTELN, à trancher. Marques exclues retirées de NACH MARKE (Sky Dancers, Make It Real, Laser X). Lien Decoden homepage -> YUMEMI. Sauvegarde de toutes les pages DE avant refonte : localStorage `__deAllBackup_20261118`.
+- Suite : ES puis NL avec la même méthode (pages_fr_fa26 à refiltrer selon les territoires du pays, visuels à traduire).
 - Homepage : FAITE en brouillon (18/11). Header + Neuheiten + 15 rubriques FR (DE/homepage_sections.json). Retirés : Neuheiten FR (doublon), Star Academy, Jeux de société. Grille catégories réduite à Perlen + B0H4W53DQ3. Grille produits filtrée (17 ASIN UE). Tuiles Kreative Küche, Malen, Glitzer, Perlen + bannière Bestseller remplacées par les visuels DE. Lien Decoden (page Yumemi absente en DE) vidé. Sauvegarde homepage avant modif : localStorage `__deHomeBackup_20261118` (onglet advertising.amazon.de).
 - Consigne Nathan : pour les autres pages, créer une NOUVELLE page bien nommée et la construire de zéro plutôt que vider l'ancienne.
 - Visuel 259a58da (Wal/Zebra) : pas à traduire (petit texte). Ne traduire que bannières et gros textes.
