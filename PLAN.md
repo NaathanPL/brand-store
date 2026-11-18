@@ -27,4 +27,8 @@ Sequins (img 0527c0b1) B0GH8CDPNQ B0GH858VGZ B0H4W4L13C / Hokusai (Dès 14 Ans) 
 Decoden (img 54387665) B0H4W4ZKS1 B0H4WDZFHR [B0H4VXFXCG FR only] / [Star Academy retiré] / Pixelo (img 5077cefa) B0GJ744ZWR B07FTP9S8Y B0D9HJFK8V + video / [Jeux de société retiré]
 
 ## Statut DE
-- Homepage : bannière Neuheiten remplacée (mobile + PC). Reste le reste des rubriques.
+- Homepage : vidée sauf Header + bannière Neuheiten (remplacée mobile + PC). Rubriques FR à ajouter (via "Ajouter une nouvelle rubrique" > Diviser la section, etc.).
+- Consigne Nathan : pour les autres pages, créer une NOUVELLE page bien nommée et la construire de zéro plutôt que vider l'ancienne.
+- Visuel 259a58da (Wal/Zebra) : pas à traduire (petit texte). Ne traduire que bannières et gros textes.
+- Builder FR : https://advertising.amazon.fr/builder/store?entityId=ENTITYV7AQV2Q8AH3W&subEntityId=ENTITY336EEXEJUQJM7 (attention, ouvre une vieille version par défaut : choisir "Lansay MAJ FA26").
+- Builder DE : https://advertising.amazon.de/builder/store?entityId=ENTITYASTEFSGHUOXZ&subEntityId=ENTITY5KM28XMPR73V (version "Lansay Multi 2023 DE").
