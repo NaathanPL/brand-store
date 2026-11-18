@@ -26,6 +26,9 @@ B0H4WBXNSM B0FX5JJYNP B0FH36HPRJ / Blopens (5+ Ans) B0H4W4P1V5 B0GH8M3X2Z + vide
 Sequins (img 0527c0b1) B0GH8CDPNQ B0GH858VGZ B0H4W4L13C / Hokusai (Dès 14 Ans) B0H4W11WB2 B0H4W323JP B0H4W7XM59 + video /
 Decoden (img 54387665) B0H4W4ZKS1 B0H4WDZFHR [B0H4VXFXCG FR only] / [Star Academy retiré] / Pixelo (img 5077cefa) B0GJ744ZWR B07FTP9S8Y B0D9HJFK8V + video / [Jeux de société retiré]
 
+## Règle Nathan
+- Copier FR au maximum sur chaque pays : toute page ou rubrique sans équivalent FR est supprimée, sans demander.
+
 ## Méthode API (validée 18/11, remplace le clic à la main)
 - Token : `document.querySelector('meta[name="builder-csrf-token"]').content` -> header `anti-csrftoken-a2z`.
 - Lecture : POST /builder/api/getPageData?entityId=..&subEntityId=.. (form-urlencoded) `pageId=..&storeId=<rootPageId>&edition=<code>`. Editions : FR FA26 = fy8TF, DE Multi 2023 = ruSFB.
@@ -36,7 +39,7 @@ Decoden (img 54387665) B0H4W4ZKS1 B0H4WDZFHR [B0H4VXFXCG FR only] / [Star Academ
 - Recharger le builder après écriture (sinon l'éditeur ouvert peut réécraser).
 
 ## Statut DE
-- Toutes les pages FAITES en brouillon (18/11), arborescence calquée sur FR FA26 (DE/pages_fr_fa26.json). Nouvelles pages : ANGEBOTE, et sous NACH MARKE : BEBE CABRIOLES, MINI DELICES, MAGIC LIGN, SHINY POP, YUMEMI. Pages renommées : KREATIVES BASTELN, MALEN & ZEICHNEN, PERLEN & SCHMUCK, GLITZER & PAILLETTEN, NACH ALTER, BESTSELLER. KREATIVE KÜCHE (page DE sans équivalent FR) laissée sous KREATIVES BASTELN, à trancher. Marques exclues retirées de NACH MARKE (Sky Dancers, Make It Real, Laser X). Lien Decoden homepage -> YUMEMI. Sauvegarde de toutes les pages DE avant refonte : localStorage `__deAllBackup_20261118`.
+- Toutes les pages FAITES en brouillon (18/11), arborescence calquée sur FR FA26 (DE/pages_fr_fa26.json). Nouvelles pages : ANGEBOTE, et sous NACH MARKE : BEBE CABRIOLES, MINI DELICES, MAGIC LIGN, SHINY POP, YUMEMI. Pages renommées : KREATIVES BASTELN, MALEN & ZEICHNEN, PERLEN & SCHMUCK, GLITZER & PAILLETTEN, NACH ALTER, BESTSELLER. KREATIVE KÜCHE supprimée (pas d'équivalent FR). Marques exclues retirées de NACH MARKE (Sky Dancers, Make It Real, Laser X). Lien Decoden homepage -> YUMEMI. Sauvegarde de toutes les pages DE avant refonte : localStorage `__deAllBackup_20261118`.
 - Suite : ES puis NL avec la même méthode (pages_fr_fa26 à refiltrer selon les territoires du pays, visuels à traduire).
 - Homepage : FAITE en brouillon (18/11). Header + Neuheiten + 15 rubriques FR (DE/homepage_sections.json). Retirés : Neuheiten FR (doublon), Star Academy, Jeux de société. Grille catégories réduite à Perlen + B0H4W53DQ3. Grille produits filtrée (17 ASIN UE). Tuiles Kreative Küche, Malen, Glitzer, Perlen + bannière Bestseller remplacées par les visuels DE. Lien Decoden (page Yumemi absente en DE) vidé. Sauvegarde homepage avant modif : localStorage `__deHomeBackup_20261118` (onglet advertising.amazon.de).
 - Consigne Nathan : pour les autres pages, créer une NOUVELLE page bien nommée et la construire de zéro plutôt que vider l'ancienne.
