@@ -26,8 +26,17 @@ B0H4WBXNSM B0FX5JJYNP B0FH36HPRJ / Blopens (5+ Ans) B0H4W4P1V5 B0GH8M3X2Z + vide
 Sequins (img 0527c0b1) B0GH8CDPNQ B0GH858VGZ B0H4W4L13C / Hokusai (Dès 14 Ans) B0H4W11WB2 B0H4W323JP B0H4W7XM59 + video /
 Decoden (img 54387665) B0H4W4ZKS1 B0H4WDZFHR [B0H4VXFXCG FR only] / [Star Academy retiré] / Pixelo (img 5077cefa) B0GJ744ZWR B07FTP9S8Y B0D9HJFK8V + video / [Jeux de société retiré]
 
+## Méthode API (validée 18/11, remplace le clic à la main)
+- Token : `document.querySelector('meta[name="builder-csrf-token"]').content` -> header `anti-csrftoken-a2z`.
+- Lecture : POST /builder/api/getPageData?entityId=..&subEntityId=.. (form-urlencoded) `pageId=..&storeId=<rootPageId>&edition=<code>`. Editions : FR FA26 = fy8TF, DE Multi 2023 = ruSFB.
+- Écriture brouillon : POST /builder/api/savePageData (JSON) `{pageId, pageData:<objet>, entityId, deleted:false, storeId, parentPageId:"", edition}`.
+- Upload visuel : POST /builder/api/assets/uploadAndRegisterAsset (FormData image, assetType=IMAGE, entityId, name, size) -> imageKey/imageUrl/assetId.
+- Visuels et vidéos FR (al-eu-726f4d26-7fdb) réutilisables tels quels en DE.
+- Les données passent d'un onglet à l'autre via le repo (fichier JSON poussé, puis fetch raw.githubusercontent).
+- Recharger le builder après écriture (sinon l'éditeur ouvert peut réécraser).
+
 ## Statut DE
-- Homepage : vidée sauf Header + bannière Neuheiten (remplacée mobile + PC). Rubriques FR à ajouter (via "Ajouter une nouvelle rubrique" > Diviser la section, etc.).
+- Homepage : FAITE en brouillon (18/11). Header + Neuheiten + 15 rubriques FR (DE/homepage_sections.json). Retirés : Neuheiten FR (doublon), Star Academy, Jeux de société. Grille catégories réduite à Perlen + B0H4W53DQ3. Grille produits filtrée (17 ASIN UE). Tuiles Kreative Küche, Malen, Glitzer, Perlen + bannière Bestseller remplacées par les visuels DE. Lien Decoden (page Yumemi absente en DE) vidé. Sauvegarde homepage avant modif : localStorage `__deHomeBackup_20261118` (onglet advertising.amazon.de).
 - Consigne Nathan : pour les autres pages, créer une NOUVELLE page bien nommée et la construire de zéro plutôt que vider l'ancienne.
 - Visuel 259a58da (Wal/Zebra) : pas à traduire (petit texte). Ne traduire que bannières et gros textes.
 - Builder FR : https://advertising.amazon.fr/builder/store?entityId=ENTITYV7AQV2Q8AH3W&subEntityId=ENTITY336EEXEJUQJM7 (attention, ouvre une vieille version par défaut : choisir "Lansay MAJ FA26").
