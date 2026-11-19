@@ -65,3 +65,4 @@ Decoden (img 54387665) B0H4W4ZKS1 B0H4WDZFHR [B0H4VXFXCG FR only] / [Star Academ
 - Refait comme ES via tools/build_from_recipe.js (recette DE), puis règle ASIN morts, puis tools/fill_grids.js (terr UE). Pages supprimées : jeux de société (+5), Laser X, Pistole laser, Star Academy, Sky Dancers, Make It Real.
 - Visuels IT : IT/*.jpg (IT/chats.tsv), remplacés. "PAILLETTES & SEQUINS" gardé tel quel (nom de page IT existant).
 - FR 19/11 : règle ASIN morts + grilles complétées (logique évidente seulement, rien de deviné).
+- Headers de pages (store.widgets.header) : un par page, comme en DE (pas le header Lansay partout). tools/set_headers.js. Faits ES + IT le 19/11 (nouveaux visuels : hdr_ofertas/munecas/manualidades, hdr_offerte/bambole/hobby).
