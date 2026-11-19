@@ -59,3 +59,9 @@ Decoden (img 54387665) B0H4W4ZKS1 B0H4WDZFHR [B0H4VXFXCG FR only] / [Star Academ
 - DE : règle ASIN morts appliquée (brouillon).
 - Règle ASIN « Définitivement indisponible » / « Annulé » (CATA ACTIF) : en bas des grilles + includeOutOfStock=false ; tuiles seules : displayOutOfStockASIN=false ; jamais sur la homepage.
 - Penser à reprendre store.widgets.header quand on copie un store (NL).
+
+## IT (19/11)
+- Builder IT : https://advertising.amazon.it/builder/store?entityId=ENTITYUEHMRCFVY8G9&subEntityId=ENTITY18TAWWT4GMLGQ, version "LANSAY", edition '' , storeId 06A12867-8784-4965-8060-5D20BEE51D46. Sauvegarde : localStorage `__itBackup_20261119`.
+- Refait comme ES via tools/build_from_recipe.js (recette DE), puis règle ASIN morts, puis tools/fill_grids.js (terr UE). Pages supprimées : jeux de société (+5), Laser X, Pistole laser, Star Academy, Sky Dancers, Make It Real.
+- Visuels IT : IT/*.jpg (IT/chats.tsv), remplacés. "PAILLETTES & SEQUINS" gardé tel quel (nom de page IT existant).
+- FR 19/11 : règle ASIN morts + grilles complétées (logique évidente seulement, rien de deviné).
