@@ -44,5 +44,12 @@ Decoden (img 54387665) B0H4W4ZKS1 B0H4WDZFHR [B0H4VXFXCG FR only] / [Star Academ
 - Homepage : FAITE en brouillon (18/11). Header + Neuheiten + 15 rubriques FR (DE/homepage_sections.json). Retirés : Neuheiten FR (doublon), Star Academy, Jeux de société. Grille catégories réduite à Perlen + B0H4W53DQ3. Grille produits filtrée (17 ASIN UE). Tuiles Kreative Küche, Malen, Glitzer, Perlen + bannière Bestseller remplacées par les visuels DE. Lien Decoden (page Yumemi absente en DE) vidé. Sauvegarde homepage avant modif : localStorage `__deHomeBackup_20261118` (onglet advertising.amazon.de).
 - Consigne Nathan : pour les autres pages, créer une NOUVELLE page bien nommée et la construire de zéro plutôt que vider l'ancienne.
 - Visuel 259a58da (Wal/Zebra) : pas à traduire (petit texte). Ne traduire que bannières et gros textes.
+## Statut ES (19/11)
+- Builder ES : https://advertising.amazon.es/builder/store?entityId=ENTITY18F9Z4SZY2YGY&subEntityId=ENTITYWO6CHGJJRWZQ, version "Lansay Multi 2023", edition MAMfC, storeId E2D1587C-1752-4201-B799-D94C71EAB192 (le builder ouvre "Blopens" par défaut).
+- Sauvegarde avant refonte : localStorage `__esAllBackup_20261119` (onglet advertising.amazon.es).
+- Arborescence + homepage FAITES en brouillon : copie du DE via ES/de_recipe.json (sections FR référencées par widgetId + diffs DE), textes traduits en espagnol, "Collection Sequins" non traduit (nom de gamme). Anciennes pages ES supprimées : Glitterizz, Construcción, Sky Dancers, Fabrikid, Cocina creativa, Juegos de acción, Totem, Actividades manuales.
+- Visuels : en ES ce sont les originaux FR (texte français) sauf la bannière Novedades (encore DE 00709465). A traduire en espagnol : 6ab54765 4d83abcc 639b8461 74e54874 ae996672 a4880ae1 f8881f76 ce9a9de8 b0179d40 6101adbd 48934bc1 9262c6ab d79a4f1d 4e3ab335 + bannière Novedades.
+- DE 19/11 : retirés B0H4W1SZWL (Bizzikins, photo NEUHEITEN), B0D9HJSF5Q, B0D9HKDDDN ; "KOLLEKTION SEQUINS" remis en "COLLECTION SEQUINS".
+
 - Builder FR : https://advertising.amazon.fr/builder/store?entityId=ENTITYV7AQV2Q8AH3W&subEntityId=ENTITY336EEXEJUQJM7 (attention, ouvre une vieille version par défaut : choisir "Lansay MAJ FA26").
 - Builder DE : https://advertising.amazon.de/builder/store?entityId=ENTITYASTEFSGHUOXZ&subEntityId=ENTITY5KM28XMPR73V (version "Lansay Multi 2023 DE").
