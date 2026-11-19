@@ -53,3 +53,9 @@ Decoden (img 54387665) B0H4W4ZKS1 B0H4WDZFHR [B0H4VXFXCG FR only] / [Star Academ
 
 - Builder FR : https://advertising.amazon.fr/builder/store?entityId=ENTITYV7AQV2Q8AH3W&subEntityId=ENTITY336EEXEJUQJM7 (attention, ouvre une vieille version par défaut : choisir "Lansay MAJ FA26").
 - Builder DE : https://advertising.amazon.de/builder/store?entityId=ENTITYASTEFSGHUOXZ&subEntityId=ENTITY5KM28XMPR73V (version "Lansay Multi 2023 DE").
+
+## 19/11 fin de journée
+- ES : header homepage (store.widgets.header, image b3ba61db) remis sur toutes les pages ; règle ASIN morts appliquée.
+- DE : règle ASIN morts appliquée (brouillon).
+- Règle ASIN « Définitivement indisponible » / « Annulé » (CATA ACTIF) : en bas des grilles + includeOutOfStock=false ; tuiles seules : displayOutOfStockASIN=false ; jamais sur la homepage.
+- Penser à reprendre store.widgets.header quand on copie un store (NL).
