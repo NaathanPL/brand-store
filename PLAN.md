@@ -66,3 +66,8 @@ Decoden (img 54387665) B0H4W4ZKS1 B0H4WDZFHR [B0H4VXFXCG FR only] / [Star Academ
 - Visuels IT : IT/*.jpg (IT/chats.tsv), remplacés. "PAILLETTES & SEQUINS" gardé tel quel (nom de page IT existant).
 - FR 19/11 : règle ASIN morts + grilles complétées (logique évidente seulement, rien de deviné).
 - Headers de pages (store.widgets.header) : un par page, comme en DE (pas le header Lansay partout). tools/set_headers.js. Faits ES + IT le 19/11 (nouveaux visuels : hdr_ofertas/munecas/manualidades, hdr_offerte/bambole/hobby).
+
+## BE (à faire)
+- Territoires autorisés BE : UE, "FR + BE", "FR + BE + NL", "FR + BE + DE + NL" (cata_actif.json, champ t).
+- Copier le FR FA26 (textes et visuels FR d'origine), filtrer sur ces territoires, puis : règle ASIN morts, tools/fill_grids.js (map des titres BE, terr ci-dessus), headers par page (tools/set_headers.js ou headers FR), header Lansay root, image « fabrication française » gardée (FR + BE).
+- Vérifier d'abord la langue du store BE et la version à modifier ; sauvegarder en localStorage avant toute écriture.
