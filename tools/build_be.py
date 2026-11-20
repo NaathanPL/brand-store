@@ -68,7 +68,7 @@ for k in keep:
     if d in s: log.append(f'{t}: lien vers page supprimée {nav[d]["title"]}')
   pg=json.loads(s)
   st={'settings':dict(be['settings']) if k==FR_R else dict(p['store']['settings']),
-      'widgets':{'navigation':dict(be['navW'],content={'nav':newnav}),'header':p['store']['widgets'].get('header')}}
+      'widgets':{'navigation':dict(be['navW'],content={'nav':newnav,'id':'bebmwtjjrf','type':'Navigation'}),'header':p['store']['widgets'].get('header')}}
   o={'template':p['template'],'id':M[k],'store':st,'page':pg,'title':'LANSAY' if k==FR_R else p['title']}
   out[M[k]]=o
 dele=[v for t,v in be['ids'].items() if v not in out]
