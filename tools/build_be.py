@@ -64,6 +64,7 @@ for k in keep:
   p=fr[k];t=nav[k]['title'];pg=fix_page(t,p)
   s=json.dumps(pg)
   for a,b in M.items(): s=s.replace(a,b)
+  s=s.replace('FC2B7F53-1661-4DEC-A030-6ECDD1D1486C',M[[x for x in nav if nav[x]['title']=='MINI DELICES'][0]])
   for d in [x for x in nav if x not in M]:
     if d in s: log.append(f'{t}: lien vers page supprimée {nav[d]["title"]}')
   pg=json.loads(s)
