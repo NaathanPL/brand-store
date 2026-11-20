@@ -77,3 +77,4 @@ Decoden (img 54387665) B0H4W4ZKS1 B0H4WDZFHR [B0H4VXFXCG FR only] / [Star Academ
 - fill_grids (terr BE) : rien à ajouter. Doublons de tuiles et lien cassé FC2B7F53 (6-7 ANS, homepage) hérités du FR, non modifiés.
 - Piège 20/11 : supprimer une page (deleted:true) avec son ANCIEN pageData réinjecte l'ancienne nav -> builder en erreur ('reading nav'). Toujours supprimer avec la NOUVELLE nav, puis resauver root en dernier.
 - Piège 20/11 (2) : une NOUVELLE page sauvée avec parentPageId:'' renvoie 200 mais n'existe pas (getPageData 424) -> soumission impossible. Créer les nouvelles pages avec parentPageId = parent dans la nav.
+- 20/11 : tools/audit.js (pages introuvables, grilles <4, liens cassés, images sans lien) + tools/fix_links.js (Bizzikins e2bb7491 -> BIZZIKINS, aérographe 259a58da -> BLOPENS, Hokusai 8d95a5c5 -> COLLECTION SEQUINS ; jamais la racine). Passés sur FR, BE, DE, ES, IT (brouillons). À lancer sur NL après construction.
